@@ -1,4 +1,6 @@
 
+
+/*  FONT ADD-------------------------------------------------------------------------------------------------------------- */
 @font-face {
     font-family: lato;
     src: url(Lato-Regular.ttf);
@@ -31,83 +33,8 @@
     src: url(Megrim.ttf);
 }
 
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF TWELVE  */
-.span_12_of_12 {
-	width: 100%;
-}
-
-.span_11_of_12 {
-  	width: 91.53%;
-}
-.span_10_of_12 {
-  	width: 83.06%;
-}
-
-.span_9_of_12 {
-  	width: 74.6%;
-}
-
-.span_8_of_12 {
-  	width: 66.13%;
-}
-
-.span_7_of_12 {
-  	width: 57.66%;
-}
-
-.span_6_of_12 {
-  	width: 49.2%;
-}
-
-.span_5_of_12 {
-  	width: 40.73%;
-}
-
-.span_4_of_12 {
-  	width: 32.26%;
-}
-
-.span_3_of_12 {
-  	width: 23.8%;
-}
-
-.span_2_of_12 {
-  	width: 15.33%;
-}
-
-.span_1_of_12 {
-  	width: 6.866%;
-}
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-    
-    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
-	width: 100%; 
-	}
-}
-
+/*  END FONT ADD-------------------------------------------------------------------------------------------------------------- */
+/*  NAV START----------------------------------------------------------------------------------------------------------------- */
 .navigationbar {
     list-style: none;
     display: flex;
@@ -137,21 +64,18 @@
 
     #logo{
      inline-size: 150px;
-     flex-flow: column wrap;
-     margin: 0 auto;
+     margin: 0;
   }
 }
 
 @media (max-width: 760px) {
   .navigationbar {
-    flex-flow: column wrap;
     padding-bottom: 5px;
   }
 
   #logo{
      inline-size: 100px;
-     flex-flow: column wrap;
-     margin: 0 auto;
+     margin: 0;
   }
 
   .navigationbar a {
@@ -160,12 +84,16 @@
   }
 }
 
+/*  END NAV ------------------------------------------------------------------------------------------------------------------ */
+
+/*  START TYPOGRAPHY---------------------------------------------------------------------------------------------------------- */
 #headerindex {
     width: 100%;
-    position: relative;
+    position: static;
 }
 
-  html {     
+  html {
+    overflow-x: hidden;
     background-color: #444446;
     background-attachment: fixed;
     background-size: cover;
@@ -194,7 +122,8 @@ h3 {
 }
 
 p{
-    font-size: 12pt;
+    font-size: 10pt;
+    color: #F2EBE3;
 }
 
 .dropdownbutton {
@@ -274,8 +203,7 @@ p{
 #logo {
 
     position: static;
-    float: left;
-    text-align: left;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 3px;
 }
@@ -296,22 +224,29 @@ a:visited {
 }
 
 .content {
-    position:fixed;
-    left: 20%;
-    top: 20%;
-    width: 55%;
-    height: 70%;
+    position:relative;
+    width: 100%;
     overflow: auto;
-    background-color: white;
-    border-radius: 25px;
+    overflow-x: hidden;
+    background-color: #F2EBE3;
     padding: 20px; 
     padding-top: 5px;
-    z-index: 0;
-    opacity: 0.95;
+    text-align: center;
 }
 
 nav {
     z-index:1;
+}
+
+footer {
+    position: fixed;
+    bottom: 1px;
+    right: 5px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    color: #F2EBE3;
+    font-size: 9px;
 }
 
 @media (max-width: 750px)
@@ -340,7 +275,7 @@ h3 {
 }
 
 p{
-    font-size: 12pt;
+    font-size: 10pt;
 }
 .dropdown {
     position: static;
