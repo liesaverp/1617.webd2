@@ -113,8 +113,8 @@
     display: flex;
     justify-content: flex-end;
     font-family: Georgia;
-    background-color: #646466;
-    color: #FFFFFF;
+    background-color: #36347E;
+    color: #FFD9DC;
 }
 
 @media (min-width: 900px) {
@@ -174,7 +174,7 @@ DESKTOP
 */
 /*@media (min-width: 600px) {*/
   html {     
-    background-color: #646466;
+    background-color: #36347E;
     background-attachment: fixed;
     background-size: cover;
   }
@@ -205,8 +205,8 @@ p{
 }
 
 .dropdownbutton {
-    background-color: #646466;
-    color: #FFFFFF;
+    background-color: #36347E;
+    color: #FFD9DC;
     padding-left: 0px;
     padding-top: 10 px;
     border: none;
@@ -218,8 +218,8 @@ p{
 
 }
 .dropdownbutton:hover {
-    background-color: #646466;
-    color: #FFFFFF;
+    background-color: #36347E;
+    color: #FFD9DC;
     z-index:1;
 }
 
@@ -233,7 +233,7 @@ p{
  .dropdowncontent {
      display: none;
      position: absolute;
-     background-color: #646466;
+     background-color: #36347E;
      min-width: 100px;
      box-shadow: 0px 4px 8px -2px #222222;
      font-family: lato;
@@ -242,7 +242,7 @@ p{
  }
 
  .dropdowncontent a {
-     color: #FFFFFF;
+     color: #FFD9DC;
      padding: 10px;
      text-decoration:none;
      display: block;
@@ -253,7 +253,7 @@ p{
  }
 
 .dropdowncontent a:hover {
-    background-color: #AFB0B4;    
+    background-color: #5362BE;    
     z-index:1;
 
 }
@@ -264,10 +264,10 @@ p{
 }
 
 .navigationbar {
-    background-color: #646466;
+    background-color: #36347E;
     position: fixed;
     top: 0px;
-    color: #FFFFFF;
+    color: #FFD9DC;
     width: cover;
     text-align: center;
     position: static;
@@ -290,7 +290,7 @@ p{
 
 a {
     background-color: transparent;
-    color: #FFFFFF;
+    color: #FFD9DC;
     border: none;
     cursor: pointer;
     margin-left: 0px;
@@ -334,7 +334,7 @@ nav {
  .dropdowncontent {
      display: none;
      position: absolute;
-     background-color: #646466;
+     background-color: #36347E;
      min-width: 100px;
      box-shadow: 0px 4px 8px -2px #222222;
      font-family: lato;
@@ -343,7 +343,7 @@ nav {
  }
 
  .dropdowncontent a {
-     color: #FFFFFF;
+     color: #FFD9DC;
      padding: 10px;
      text-decoration:none;
      display: none;
@@ -354,7 +354,7 @@ nav {
  }
 
 .dropdowncontent a:hover {
-    background-color: #AFB0B4;    
+    background-color: #5362BE;    
     z-index:1;
     display:none;
 
