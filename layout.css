@@ -113,8 +113,8 @@
     display: flex;
     justify-content: flex-end;
     font-family: Georgia;
-    background-color: #36347E;
-    color: #FFD9DC;
+    background-color: #444446;
+    color: #F2EBE3;
 }
 
 @media (min-width: 900px) {
@@ -124,7 +124,7 @@
   }
 
     #logo{
-     inline-size: 150px;
+     inline-size: 200px;
      flex-flow: column wrap;
   }
 }
@@ -136,7 +136,7 @@
   }
 
     #logo{
-     inline-size: 100px;
+     inline-size: 150px;
      flex-flow: column wrap;
      margin: 0 auto;
   }
@@ -162,6 +162,7 @@
 
 #headerindex {
     width: 100%;
+    position: relative;
 }
 
 /*
@@ -174,7 +175,7 @@ DESKTOP
 */
 /*@media (min-width: 600px) {*/
   html {     
-    background-color: #36347E;
+    background-color: #444446;
     background-attachment: fixed;
     background-size: cover;
   }
@@ -205,8 +206,8 @@ p{
 }
 
 .dropdownbutton {
-    background-color: #36347E;
-    color: #FFD9DC;
+    background-color: #444446;
+    color: #F2EBE3;
     padding-left: 0px;
     padding-top: 10 px;
     border: none;
@@ -218,8 +219,8 @@ p{
 
 }
 .dropdownbutton:hover {
-    background-color: #36347E;
-    color: #FFD9DC;
+    background-color: #444446;
+    color: #F2EBE3;
     z-index:1;
 }
 
@@ -233,7 +234,7 @@ p{
  .dropdowncontent {
      display: none;
      position: absolute;
-     background-color: #36347E;
+     background-color: #444446;
      min-width: 100px;
      box-shadow: 0px 4px 8px -2px #222222;
      font-family: lato;
@@ -242,7 +243,7 @@ p{
  }
 
  .dropdowncontent a {
-     color: #FFD9DC;
+     color: #F2EBE3;
      padding: 10px;
      text-decoration:none;
      display: block;
@@ -253,7 +254,7 @@ p{
  }
 
 .dropdowncontent a:hover {
-    background-color: #5362BE;    
+    background-color: #C8AED3;    
     z-index:1;
 
 }
@@ -264,10 +265,10 @@ p{
 }
 
 .navigationbar {
-    background-color: #36347E;
+    background-color: #444446;
     position: fixed;
     top: 0px;
-    color: #FFD9DC;
+    color: #F2EBE3;
     width: cover;
     text-align: center;
     position: static;
@@ -290,7 +291,7 @@ p{
 
 a {
     background-color: transparent;
-    color: #FFD9DC;
+    color: #F2EBE3;
     border: none;
     cursor: pointer;
     margin-left: 0px;
@@ -334,7 +335,7 @@ nav {
  .dropdowncontent {
      display: none;
      position: absolute;
-     background-color: #36347E;
+     background-color: #444446;
      min-width: 100px;
      box-shadow: 0px 4px 8px -2px #222222;
      font-family: lato;
@@ -343,7 +344,7 @@ nav {
  }
 
  .dropdowncontent a {
-     color: #FFD9DC;
+     color: #F2EBE3;
      padding: 10px;
      text-decoration:none;
      display: none;
@@ -354,7 +355,7 @@ nav {
  }
 
 .dropdowncontent a:hover {
-    background-color: #5362BE;    
+    background-color: #C8AED3;    
     z-index:1;
     display:none;
 
