@@ -17,8 +17,8 @@
 }
 
 @font-face {
-    font-family: lato-black;
-    src: url(Lato-Black.ttf);
+    font-family: lato-#F2EBE3;
+    src: url(Lato-#F2EBE3.ttf);
 }
 
 @font-face {
@@ -120,7 +120,7 @@
 @media (min-width: 900px) {
   .navigationbar {
     justify-content: space-around;
-    padding: 0;
+    padding-bottom: 10px;
   }
 
     #logo{
@@ -132,7 +132,7 @@
 @media (max-width: 900px) {
   .navigationbar {
     justify-content: space-around;
-    padding: 0;
+    padding-bottom: 5px;
   }
 
     #logo{
@@ -145,7 +145,7 @@
 @media (max-width: 760px) {
   .navigationbar {
     flex-flow: column wrap;
-    padding: 10;
+    padding-bottom: 5px;
   }
 
   #logo{
@@ -156,7 +156,7 @@
 
   .navigationbar a {
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -165,15 +165,6 @@
     position: relative;
 }
 
-/*
-----------------------------------------------------------------------------------------------------------------------
-
-
-DESKTOP
-
-
-*/
-/*@media (min-width: 600px) {*/
   html {     
     background-color: #444446;
     background-attachment: fixed;
@@ -182,20 +173,21 @@ DESKTOP
 
 h1 {
     font-family: megrim;
-    font-size: 22px;
-    color: black;
+    font-size: 36px;
+    color: #F2EBE3;
+    text-align: center;
 }
 
 h2 {
     font-family: lato;
-    font-size: 16pt;
-    color: #000000
+    font-size: 16px;
+    color: #F2EBE3
 }
 
 h3 {
     font-family: lato;
     font-size: 14pt;
-    color: black
+    color: #F2EBE3
     ;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -286,7 +278,6 @@ p{
     text-align: left;
     padding-top: 10px;
     padding-bottom: 3px;
-    padding-left: 10px;
 }
 
 a {
@@ -325,6 +316,32 @@ nav {
 
 @media (max-width: 750px)
 {
+
+h1 {
+    font-family: megrim;
+    font-size: 20px;
+    color: #F2EBE3;
+    text-align: center;
+}
+
+h2 {
+    font-family: lato;
+    font-size: 16px;
+    color: #F2EBE3
+}
+
+h3 {
+    font-family: lato;
+    font-size: 14pt;
+    color: #F2EBE3
+    ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 12pt;
+}
 .dropdown {
     position: static;
     display: in-line inline-block;
