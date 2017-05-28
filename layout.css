@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: lato-#F2EBE3;
+    font-family: lato-black;
     src: url(Lato-#F2EBE3.ttf);
 }
 
@@ -427,3 +427,48 @@ p{
     text-align: left;
 }
 
+/*FORM -----------------------------------*/
+
+#contact-form{
+  width: 100%;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+    width:100%;
+    box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+}
+
+#contact-form button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#C8AED3;
+    color:#F2EBE3;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+}
+
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
