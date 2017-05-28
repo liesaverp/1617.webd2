@@ -62,7 +62,7 @@
     display: block;
     margin: 0 -12px;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .grid__wrapper:after,
@@ -121,6 +121,13 @@
 .grid__offset-3 {  margin-left: 25%; }
 .grid__offset-2 {  margin-left: 16.666666666667%; }
 .grid__offset-1 {  margin-left: 8.333333333333%; }
+
+
+/*IMAGES FOR SERVICES*/
+.services_examples {
+    width: 100%;
+}
+
 
 /*  NAV START----------------------------------------------------------------------------------------------------------------- */
 .navigationbar {
@@ -181,7 +188,7 @@
 }
 
   html {
-    overflow-x: hidden;
+    overflow-x: auto;
     background-color: #444446;
     background-attachment: fixed;
     background-size: cover;
@@ -212,6 +219,7 @@ h3 {
 p{
     font-size: 10pt;
     color: #F2EBE3;
+    text-align: center;
 }
 
 .dropdownbutton {
@@ -302,7 +310,7 @@ a {
     border: none;
     cursor: pointer;
     margin-left: 0px;
-    font-size: 12pt;
+    font-size: em;
     font-family: lato;
     text-decoration: none;
 }
@@ -311,11 +319,16 @@ a:visited {
     text-decoration:none;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: #C8AED3;
+}
+
 .content {
     position:relative;
     width: 100%;
     overflow: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
     background-color: #F2EBE3;
     padding: 20px; 
     padding-top: 5px;
@@ -337,7 +350,9 @@ footer {
     font-size: 9px;
 }
 
-@media (max-width: 750px)
+
+/* More nav & mobile stuff-------------------------------------------------------------------------------------*/
+@media (max-width: 760px)
 {
 
 h1 {
@@ -364,6 +379,8 @@ h3 {
 
 p{
     font-size: 10pt;
+    color: #F2EBE3;
+    text-align: center;
 }
 .dropdown {
     position: static;
@@ -406,3 +423,7 @@ p{
     z-index:1;
 }
 }
+.services {
+    text-align: left;
+}
+
